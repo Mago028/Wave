@@ -1,0 +1,168 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.Header{
+    display: flex;
+    height: 10%;
+    padding: 1rem;
+    align-items: center
+}
+.Header button {
+    width: 6rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+.Container{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+.Container input{
+    height: 3.3rem;
+    width: 50rem;
+}
+/* 2PAGE */
+.Container-WaterPlayScore{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+.Container-Left{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Container-LeftHeader {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Container-Left input{
+    width: 30rem;
+    height: 3.5rem;
+}
+.MainWS{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 90%;
+}
+.Container-Right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.Container-RightHeader {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.TodayWS{
+    width: 13rem;
+    height: 4rem;
+    border-style: hidden;
+    border-radius: 10%;
+}
+.Finder{
+    width: 13rem;
+    height: 4rem;
+    border-style: hidden;
+    border-radius: 10%;
+}
+.WeeklyWS{
+    width: 13rem;
+    height: 4rem;
+    border-style: hidden;
+    border-radius: 10%;
+}
+.Container-RightInformation{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    flex-direction: row;
+}
+.Container-RightInformation-Weather{
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.RightInformation-Weather{
+    width: 100%;
+    height: 100%;
+    border-radius: 25%;
+    background-color: rgb(169, 166, 166);
+}
+.Container-RightInformation-Others{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.Container-RightInformation-UV{
+    height: 50%;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.RightInformation-UV{
+    width: 90%;
+    height: 100%;
+    border-radius: 25%;
+    background-color: rgb(169, 166, 166);
+}
+.Container-RightInformation-WaterTemperature{
+    height: 50%;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.RightInformation-WaterTemperature{
+    width: 90%;
+    height: 100%;
+    border-radius: 25%;
+    background-color: rgb(169, 166, 166);
+}
+.Container-RightGraph{
+    border: 1px solid black;
+    height: 45%;
+    width: 100%;
+}
+/* 3page */
+.Container-rightFinder{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* 4page */
+.Container-rightWeeklyWS{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
